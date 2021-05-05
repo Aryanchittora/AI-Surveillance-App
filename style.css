@@ -1,0 +1,53 @@
+body {
+    background-size: cover;
+}
+.head {
+    width: 85%;
+    font-size: 26px !important;
+    text-shadow: 0px 0px 7px lightpink;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+.control , #status , #object_no  {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: 0px 0px 7px lightgrey;
+}
+#footer {
+    font-family: cursive;
+    text-shadow: 0px 0px 7px white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    line-height: 3;
+    background-color: lightsteelblue;
+    text-align: center;
+    background: linear-gradient(to right,#1A2980 0%, #26D0CE 100%);
+    color: white;
+    animation-name: animate3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate3 {
+    from {background: linear-gradient(to right,#1A2980 0%, #26D0CE 100%);}
+    to {background: linear-gradient(to right,#26D0CE 0%, #1A2980 100%);}
+}
+
+canvas {
+    border: 10px solid #1A2980;
+    box-shadow: 0px 0px 10px #1A2980;
+    margin-top: 220px;
+    border-radius: 10px;
+    animation-name: animate2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate2 {
+    from {border-color: #1A2980;}
+    to {border-color: #26D0CE;}
+    from {box-shadow: 0px 5px 10px #1A2980;}
+    to {box-shadow: 0px 5px 10px #26D0CE;}
+}
